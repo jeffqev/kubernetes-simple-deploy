@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: backend
-        image: backend-k8s:v1
         imagePullPolicy: IfNotPresent
+        image: jeffqev/backend-k8s:latest
 ---
 apiVersion: v1
 kind: Service
